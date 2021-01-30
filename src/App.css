@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 198, 207);
+  padding:5px;
+  flex-wrap: wrap;
 }
 
 .App-logo {
@@ -36,3 +43,87 @@
     transform: rotate(360deg);
   }
 }
+
+.collapsible{
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.5s;
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #102621;
+  color: #102621;
+  padding: 7px;
+  font-size: 14px;
+  text-align: center;
+  background-color: none;
+  transition: 0.2s;
+  border-radius: 3px;
+  margin: 20px;
+  width: 100%;
+}
+
+button:hover {
+  color: rgb(247, 247, 247);
+  background-color: #102622;
+  cursor: pointer;
+}
+
+.FAQ{
+  display:flex;
+  flex-direction: column;
+  padding: 30px;
+  -webkit-box-shadow: -1px 10px 44px -12px rgba(158,204,235,0.31);
+  -moz-box-shadow: -1px 10px 44px -12px rgba(158,204,235,0.31);
+  box-shadow: -1px 10px 44px -12px rgba(0,0,0,0.31);
+  border-color: white;
+  border-radius: 10px;
+  width: 60%;
+  background-color: white;
+  margin:20px 10px;
+}
+
+h3{
+  padding: 10px 10px;
+  font-weight: 100;
+  border: 0.5px solid #102622;
+  border-radius: 3px;
+}
+
+.listItem{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.faqButton{
+  color: yellow;
+}
+
+.contact-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section{
+  display:flex;
+  flex-direction: column;
+  padding: 30px;
+  -webkit-box-shadow: -1px 10px 44px -12px rgba(158,204,235,0.31);
+  -moz-box-shadow: -1px 10px 44px -12px rgba(158,204,235,0.31);
+  box-shadow: -1px 10px 44px -12px rgba(0,0,0,0.31);
+  border-color: white;
+  border-radius: 10px;
+  background-color: white;
+  margin:20px 10px;
+}
+
