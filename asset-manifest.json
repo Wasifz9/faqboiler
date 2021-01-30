@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/faqboiler/static/css/main.7bb70750.chunk.css",
+    "main.js": "/faqboiler/static/js/main.96fbcce2.chunk.js",
+    "main.js.map": "/faqboiler/static/js/main.96fbcce2.chunk.js.map",
+    "runtime-main.js": "/faqboiler/static/js/runtime-main.a6b042ce.js",
+    "runtime-main.js.map": "/faqboiler/static/js/runtime-main.a6b042ce.js.map",
+    "static/js/2.39761c4c.chunk.js": "/faqboiler/static/js/2.39761c4c.chunk.js",
+    "static/js/2.39761c4c.chunk.js.map": "/faqboiler/static/js/2.39761c4c.chunk.js.map",
+    "static/js/3.c90b2589.chunk.js": "/faqboiler/static/js/3.c90b2589.chunk.js",
+    "static/js/3.c90b2589.chunk.js.map": "/faqboiler/static/js/3.c90b2589.chunk.js.map",
+    "index.html": "/faqboiler/index.html",
+    "static/css/main.7bb70750.chunk.css.map": "/faqboiler/static/css/main.7bb70750.chunk.css.map",
+    "static/js/2.39761c4c.chunk.js.LICENSE.txt": "/faqboiler/static/js/2.39761c4c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/faqboiler/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6b042ce.js",
+    "static/js/2.39761c4c.chunk.js",
+    "static/css/main.7bb70750.chunk.css",
+    "static/js/main.96fbcce2.chunk.js"
+  ]
+}
